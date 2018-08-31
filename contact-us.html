@@ -72,15 +72,6 @@
 
 
 
-<!-- TEST -->
-<form method="POST" action="https://formspree.io/rogg40@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-</form>
-
-
-<!--  END TEST -->
 
 
 
@@ -92,7 +83,8 @@
               <hr class="divider divider-left divider-default">
               <p class="big">You can contact us any way that is convenient for you. You can also use a quick contact form below or visit our office personally.</p>
               <!-- RD Mailform-->
-              <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" novalidate="novalidate">
+
+              <form action="https://formspree.io/rogg40@gmail.com" method="POST">
                 <div class="range range-20">
                   <div class="cell-sm-6">
                     <div class="form-wrap form-wrap-validation">
@@ -103,7 +95,7 @@
                   <div class="cell-sm-6">
                     <div class="form-wrap form-wrap-validation">
                       <label class="form-label-outside" for="form-1-email">E-mail</label>
-                      <input class="form-input form-control-has-validation form-control-last-child" id="form-1-email" type="email" name="email" data-constraints="@Email @Required"><span class="form-validation"></span>
+                      <input class="form-input form-control-has-validation form-control-last-child" id="form-1-email" type="email" name="_replyto" data-constraints="@Email @Required"><span class="form-validation"></span>
                     </div>
                   </div>
                   <div class="cell-xs-12">
@@ -114,11 +106,16 @@
                   </div>
                   <div class="cell-xs-12 offset-custom-1">
                     <div class="form-button">
-                      <button class="button button-secondary button-nina" type="submit"><span style="transition: opacity 0.22s 0s, transform 0.22s 0s, color 0.22s;">s</span><span style="transition: opacity 0.22s 0.03s, transform 0.22s 0.03s, color 0.22s;">e</span><span style="transition: opacity 0.22s 0.06s, transform 0.22s 0.06s, color 0.22s;">n</span><span style="transition: opacity 0.22s 0.09s, transform 0.22s 0.09s, color 0.22s;">d</span><span style="transition: opacity 0.22s 0.12s, transform 0.22s 0.12s, color 0.22s;"></span><span style="transition: opacity 0.22s 0.15s, transform 0.22s 0.15s, color 0.22s;">m</span><span style="transition: opacity 0.22s 0.18s, transform 0.22s 0.18s, color 0.22s;">e</span><span style="transition: opacity 0.22s 0.21s, transform 0.22s 0.21s, color 0.22s;">s</span><span style="transition: opacity 0.22s 0.24s, transform 0.22s 0.24s, color 0.22s;">s</span><span style="transition: opacity 0.22s 0.27s, transform 0.22s 0.27s, color 0.22s;">a</span><span style="transition: opacity 0.22s 0.3s, transform 0.22s 0.3s, color 0.22s;">g</span><span style="transition: opacity 0.22s 0.33s, transform 0.22s 0.33s, color 0.22s;">e</span><span class="button-original-content" style="transition: background 0.22s, color 0.22s, transform 0.22s 0.36s;">send message</span></button>
+                      <input class="button button-secondary" type="submit" value="Send Message">
                     </div>
                   </div>
                 </div>
-              </form>
+          </form>
+
+
+
+
+
             </div>
             <div class="cell-sm-9 cell-md-4 cell-lg-3">
               <div class="column-aside">
