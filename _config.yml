@@ -17,7 +17,7 @@ name: Mr. Glow Express Car Wash
 description: SpinLite Express Car Wash in Lake Worth, Florida
 meta_description: "SpinLite Express Car Wash in Lake Worth, Florida"
 logo: 'assets/images/mr-glow.svg'
-favicon: 'assets/images/favicon.ico'
+favicon: 'favicon.ico'
 email: info@mrglowcarwash.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are an express car wash that utilizes state of the art SpinLite® equipment dedicated to bringing you the best car wash experience imaginable. Located in Lake Worth, Florida.
