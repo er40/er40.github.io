@@ -1231,6 +1231,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 section.about-us {
 	margin-top:115px;
+	margin-bottom:100px;
 
 	p {
 		color: #838386;
@@ -1361,7 +1362,8 @@ section.faq {
 @media (max-width:768px) {
 
 section.about-us {
-    	
+	    margin-bottom:30px;
+
     	h2 {
     		margin-top:20px;
     	}

@@ -1069,7 +1069,8 @@ label {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1); }
 
 section.about-us {
-  margin-top: 115px; }
+  margin-top: 115px;
+  margin-bottom: 100px; }
   section.about-us p {
     color: #838386; }
 
@@ -1158,8 +1159,10 @@ section.faq {
   max-width: 475px; }
 
 @media (max-width: 768px) {
-  section.about-us h2 {
-    margin-top: 20px; }
+  section.about-us {
+    margin-bottom: 30px; }
+    section.about-us h2 {
+      margin-top: 20px; }
 
   .accordion .card-header h3 {
     padding: 1.5rem 1.5rem;
