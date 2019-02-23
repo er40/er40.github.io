@@ -35,6 +35,7 @@ plugins:
 whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-email-protect
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
