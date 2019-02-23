@@ -7,4 +7,5 @@ group :jekyll_plugins do
 	gem 'jekyll-sitemap', '~> 1.2'
 	gem 'jekyll-email-protect'
 	gem 'jekyll-redirect-from'
+	gem 'jekyll-coffeescript'
 end

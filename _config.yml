@@ -32,10 +32,16 @@ plugins:
    - jekyll-sitemap
    - jekyll-email-protect
    - jekyll-redirect-from
+   - jekyll-coffeescript
 whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-email-protect
+  - jekyll-coffeescript
+sass:
+  style: compressed
+  sass_dir: _sass
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
