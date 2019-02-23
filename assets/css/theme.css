@@ -9,13 +9,16 @@ body {
     font-family: "Inter UI var alt", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     overflow-x:hidden;
     background: #f2f3f9;
+    font-display: auto;
 }
 
 h1, h2 {
 	font-weight:900;
+	font-display: auto;
 }
 .alt-text {
 	font-family: 'Bitter', serif;
+	font-display: auto;
 	font-size:1.2em;
 	color:#292b2c;
 	line-height:1.5;
