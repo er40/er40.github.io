@@ -1158,6 +1158,9 @@ section.faq {
   max-width: 475px; }
 
 @media (max-width: 768px) {
+  section.about-us h2 {
+    margin-top: 20px; }
+
   .accordion .card-header h3 {
     padding: 1.5rem 1.5rem;
     font-size: 1rem; }
@@ -1197,7 +1200,7 @@ section.faq {
 
   .mobile-club-container .features-container .feature-wrapper .feature-desc {
     float: left;
-    width: 60%; }
+    width: 58%; }
 
   .mobile-club-container .features-container .feature-wrapper .feature-desc h6 {
     font-size: 1rem; }
