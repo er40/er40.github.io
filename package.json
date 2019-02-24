@@ -1,0 +1,37 @@
+{
+  "name": "mrglowcarwash",
+  "version": "1.0.0",
+  "description": "Mr. Glow Express Car Wash in Lake Worth, Florida",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er40/er40.github.io.git"
+  },
+  "keywords": [
+    "Car",
+    "Wash",
+    "Car",
+    "Wash",
+    "Lake",
+    "Worth",
+    "Car",
+    "Wash",
+    "Palm",
+    "Springs",
+    "Express",
+    "Car",
+    "Wash"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/er40/er40.github.io/issues"
+  },
+  "homepage": "https://github.com/er40/er40.github.io#readme",
+  "dependencies": {
+    "fg-loadcss": "^2.1.0"
+  }
+}
