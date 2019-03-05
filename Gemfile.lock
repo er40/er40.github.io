@@ -79,6 +79,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   glow!
+  jekyll (~> 3.8)
   jekyll-coffeescript
   jekyll-email-protect
   jekyll-redirect-from

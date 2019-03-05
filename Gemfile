@@ -9,3 +9,4 @@ group :jekyll_plugins do
 	gem 'jekyll-redirect-from'
 	gem 'jekyll-coffeescript'
 end
+gem "jekyll", "~> 3.8"
