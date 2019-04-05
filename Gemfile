@@ -8,5 +8,6 @@ group :jekyll_plugins do
 	gem 'jekyll-email-protect'
 	gem 'jekyll-redirect-from'
 	gem 'jekyll-coffeescript'
+	gem 'jekyll-webp'
 end
 gem "jekyll", "~> 3.8"
