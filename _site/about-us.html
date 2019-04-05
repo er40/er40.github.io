@@ -483,7 +483,7 @@
                         <a class="btn" href="https://websiteconnect.drb.com/mrglowcarwash/" target="_blank">Buy an Unlimited FastPass</a>
                     </div>
                     <div class="fastpass-footer">
-                        <img src="/assets/images/fastpass-footer.png" alt="SUV going through Car Wash tunnel with hot wax on windshield">
+                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/assets/images/fastpass-footer.png" alt="SUV going through Car Wash tunnel with hot wax on windshield">
                     </div>
                 </div>
             </div>
@@ -501,7 +501,7 @@
                 <div class="footer-widget">
                     <div class="footer-logo-wrap">
                         <a href="">
-                        <img class="footer-logo" src="/assets/images/mr-glow.svg" alt="Mr. Glow Express Car Wash Logo">
+                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/assets/images/mr-glow.svg" alt="Mr. Glow Express Car Wash Logo">
                         <div class="logo-text-footer"><span class="top">Mr. Glow</span><span class="bottom">Express Car Wash</span></div>
                         </a>
                     </div>
@@ -619,6 +619,16 @@
   gtag('config', 'UA-127846440-1');
 </script>
 
+<!-- deferred load images -->
+<script>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
 
  
 <script src="/assets/js/jquery.min.js"></script>
