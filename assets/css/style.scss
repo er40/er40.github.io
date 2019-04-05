@@ -595,7 +595,7 @@ span.post-name a,span.post-read-more a:hover {
 	font-weight:700;
 	margin-bottom:1rem;
 }
-.intro {
+.no-webp .intro {
     background-size:cover;
     background-position:center;
     padding: 9rem 0;
@@ -608,6 +608,22 @@ span.post-name a,span.post-read-more a:hover {
     background-image: linear-gradient(135deg, rgba(109, 14, 177, 0.7) 59%, rgba(8, 10, 180, 0.7) 100%), url(../images/head.jpg);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1);
 }
+
+.webp .intro {
+    background-size:cover;
+    background-position:center;
+    padding: 9rem 0;
+  margin-top: -101px;
+    margin-bottom: 3.44rem;
+    z-index: 1;
+    position: relative;
+    background-image: -moz-linear-gradient(-39deg, rgba(109, 14, 177, 0.7) 59%, rgba(8, 10, 180, 0.7) 100%), url(../images/head.webp);
+    background-image: -webkit-linear-gradient(-39deg, rgba(109, 14, 177, 0.7) 59%, rgba(8, 10, 180, 0.7) 100%), url(../images/head.webp);
+    background-image: linear-gradient(135deg, rgba(109, 14, 177, 0.7) 59%, rgba(8, 10, 180, 0.7) 100%), url(../images/head.webp);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1);
+}
+
+
 .intro .btn {
     background: #25b2fc;
     border: 0;
