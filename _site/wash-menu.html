@@ -347,10 +347,14 @@
                     </div>
                     <div class="fastpass-footer">
                         <picture>
-                          <source srcset="/assets/images/fastpass-footer.webp" type="image/webp">
-                          <source srcset="/assets/images/fastpass-footer.png" type="image/png">
-                          <img src="/assets/images/fastpass-footer.png" alt="SUV going through Car Wash tunnel with hot wax on windshield">
+                          <source data-srcset='/assets/images/fastpass-footer.webp' type="image/webp">
+                          <source data-srcset='/assets/images/fastpass-footer.png' type="image/png">
+                          <img data-src="/assets/images/fastpass-footer.png" class="lazyload"
+                            alt="SUV going through Car Wash tunnel with hot wax on windshield" />
                         </picture>
+                        <noscript>
+                          <img src="/assets/images/fastpass-footer.png" alt="SUV going through Car Wash tunnel with hot wax on windshield" >
+                        </noscript>
                     </div>
                 </div>
             </div>
@@ -368,7 +372,7 @@
                 <div class="footer-widget">
                     <div class="footer-logo-wrap">
                         <a href="">
-                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/assets/images/mr-glow.svg" alt="Mr. Glow Express Car Wash Logo">
+                        <img src="/assets/images/mr-glow.svg" alt="Mr. Glow Express Car Wash Logo">
                         <div class="logo-text-footer"><span class="top">Mr. Glow</span><span class="bottom">Express Car Wash</span></div>
                         </a>
                     </div>
@@ -486,16 +490,7 @@
   gtag('config', 'UA-127846440-1');
 </script>
 
-<!-- deferred load images -->
-<script>
-function init() {
-var imgDefer = document.getElementsByTagName('img');
-for (var i=0; i<imgDefer.length; i++) {
-if(imgDefer[i].getAttribute('data-src')) {
-imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-} } }
-window.onload = init;
-</script>
+<script src="/assets/js/lazysizes.min.js"></script>
 
 <!-- Modernizr Set Class -->
 <script>
