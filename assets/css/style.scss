@@ -1555,7 +1555,7 @@ section.reviews {
 }
 
 .horizontal-scroll-container {
-	overflow-x:scroll;
+	overflow-x:display;
 }
 .quote-inside-wrapper {
 	float:left;
@@ -2000,7 +2000,7 @@ section.reviews {
 
 .section-wave {
 	position: absolute;
-	top: 0;
+	top: 2px;
 	transform: translateY(-100%);
 	width: 100vw;
 	line-height: 0;
@@ -2546,7 +2546,7 @@ section.faq {
 .fastpass-footer {
 	position: absolute;
     width: 43%;
-    top: -81px;
+    top: -86px;
     right: 0;
     max-width:475px;
 
@@ -2556,6 +2556,10 @@ section.faq {
 
 
 @media (max-width:768px) {
+
+.horizontal-scroll-container {
+	overflow-x:scroll;
+}
 
 section.about-us {
 	    margin-bottom:30px;
