@@ -324,6 +324,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', e
     transition: all 0.4s;
     background:#fff;
 }
+
+@media (max-width:992px) {    
+  .site-content {
+    margin-top: 0 !important;
+  }
+}
+
+
 section {
 	margin-bottom:20px;
 }
@@ -647,6 +655,11 @@ span.post-name a,span.post-read-more a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1);
 }
 
+@media (max-width:992px) {    
+  .webp .intro {
+    padding: 9rem 0 2rem;
+  }
+}
 
 
 .intro .btn {
@@ -1994,6 +2007,13 @@ section.reviews {
 // HERO WAVE
 
 
+@media (max-width:991px) {
+  .section-wave-wrap {
+    top: -57px !important;
+  }
+}
+
+
 .section-wave-wrap {
 	z-index: 2;
     position: relative;
@@ -2002,6 +2022,8 @@ section.reviews {
     fill: #fff;
     top: -55px;
 }
+
+
 
 
 .section-wave {
@@ -2715,6 +2737,12 @@ section.reviews {
 	.small-hero {
 		padding: 7rem 0 .5rem 0 !important;
 	}
+
+  @media (max-width:991px) {
+    .small-hero {
+      margin-top: -25px !important;
+    }
+  }
 
 	.wash-menu-hero {
 	    background-size: cover;
