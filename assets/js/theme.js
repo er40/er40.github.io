@@ -139,7 +139,7 @@ jQuery(document).ready(function($){
     }
     
     
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
+    //$('.site-content').css('margin-top', $('header').outerHeight() + 'px');
     
     
     

@@ -647,11 +647,7 @@ span.post-name a,span.post-read-more a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1);
 }
 
-@-moz-document url-prefix() {
-    .webp .intro {
-        margin-top: -214px;
-    }
-}
+
 
 .intro .btn {
     background: #25b2fc;
