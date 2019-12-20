@@ -6,11 +6,12 @@
 <meta name="title" content="{{ page.title }}">
 <link rel="icon" href="{{ site.baseurl }}/favicon.ico">    
 <title>{{ page.title }} | {{site.name}}</title>
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}    
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" crossorigin="anonymous">
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}   
+<link rel="preload" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" as="style"> 
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet"></noscript>
+<link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 {{site.sharethis}}
     
