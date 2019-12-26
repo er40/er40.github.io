@@ -1430,6 +1430,60 @@ ul {
 
 //GLOBAL
 
+.promo-banner {
+  color:#fff;
+  margin:100px 0;
+
+  div {
+    border-radius:100px;
+  }
+}
+
+@media (max-width:991px) {
+.promo-banner {
+  color:#fff;
+  margin:25px 0 50px;
+
+  h3 {
+    font-size:20px;
+  }
+  div {
+    border-radius:8px;
+    padding: 0;
+  }
+}
+}
+
+.bg-grad {
+  background: -moz-linear-gradient(150deg, #6d0eb1 0%, #080bb4 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #6d0eb1), color-stop(100%, #080bb4));
+  background: -webkit-linear-gradient(150deg, #6d0eb1 0%, #080bb4 100%);
+  background: -o-linear-gradient(150deg, #6d0eb1 0%, #080bb4 100%);
+  background: -ms-linear-gradient(150deg, #6d0eb1 0%, #080bb4 100%);
+  background: linear-gradient(150deg, #6d0eb1 0%, #080bb4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0eb1', endColorstr='#080bb4',GradientType=1 );
+}
+
+.pattern-overlay-3 {
+    position: relative;
+    z-index: 1;
+}
+
+.pattern-overlay-3::before {
+  content: "";
+  background: url(../images/bg-pattern.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 
 .navbar-toggleable-md .navbar-nav a{
 	&:hover {
