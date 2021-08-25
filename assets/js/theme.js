@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+        $('#specialModalCenter').modal('show');
+    });
+
 jQuery(document).ready(function($){
     
  
