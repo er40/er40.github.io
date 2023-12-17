@@ -1605,11 +1605,19 @@ ul {
 
 
 // HOMEPAGE
+@media (max-width:768px) {
 
+  .pbp-badge {
+    margin-bottom:16px;
+    width:100% !important;
+  }
+}
 .pbp-badge {
   max-width: 486px;
   margin-bottom:16px;
 }
+
+
 .video-container {
 
     .inner-container {
